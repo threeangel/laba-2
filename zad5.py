@@ -1,8 +1,8 @@
-n = int(input("Enter the number of words: "))
+n = int(input("Введите кол-во слов: "))
 result = ""
 
 for i in range(n):
-    word = input("Enter word: ")
+    word = input("Напиши слово: ")
     result += word + " "
 
-print("Result:", result)
+print("Результат:", result)

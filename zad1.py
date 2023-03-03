@@ -1,7 +1,7 @@
-password = input("Enter password: ")
-confirm_password = input("Confirm password: ")
+password = input("Введите пароль: ")
+confirm_password = input("Подтвердите пароль: ")
 
 if password == confirm_password:
-    print("Password accepted")
+    print("Пароль принят")
 else:
-    print("Password not accepted")
+    print("Пароль не принят")

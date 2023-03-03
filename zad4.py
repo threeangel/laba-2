@@ -1,11 +1,11 @@
-color1 = input("Enter the first primary color: ")
-color2 = input("Enter the second primary color: ")
+color1 = input("Введите первый цвет: ")
+color2 = input("Введите второй цвет: ")
 
-if color1 == "red" and color2 == "blue" or color1 == "blue" and color2 == "red":
-    print("Purple")
-elif color1 == "red" and color2 == "yellow" or color1 == "yellow" and color2 == "red":
-    print("Orange")
-elif color1 == "blue" and color2 == "yellow" or color1 == "yellow" and color2 == "blue":
-    print("Green")
+if color1 == "красный" and color2 == "синий" or color1 == "синий" and color2 == "красный":
+    print("Фиолетовый")
+elif color1 == "красный" and color2 == "желтый" or color1 == "желтый" and color2 == "красный":
+    print("Оранжевый")
+elif color1 == "синий" and color2 == "желтый" or color1 == "желтый" and color2 == "синий":
+    print("Зеленый")
 else:
-    print("Error: Invalid color input")
+    print("Введи цвет по-человечески пж")
